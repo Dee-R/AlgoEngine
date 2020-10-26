@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93426D262546E4AC008DC310 /* Multiplesof3and5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426D252546E4AC008DC310 /* Multiplesof3and5.swift */; };
 		93914DA424F6F50100C6D65B /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93914DA324F6F50100C6D65B /* FizzBuzz.swift */; };
 		93914DAE24F6F51F00C6D65B /* AlgoEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93914D9824F6F45A00C6D65B /* AlgoEngine.framework */; };
 		93914DB524F6F55700C6D65B /* FizzBuzzTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93914DAB24F6F51F00C6D65B /* FizzBuzzTest.swift */; };
+		93914DC024F7272500C6D65B /* Multiplesof3and5Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93914DBF24F7272500C6D65B /* Multiplesof3and5Test.swift */; };
+		93914DC224F7272500C6D65B /* AlgoEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93914D9824F6F45A00C6D65B /* AlgoEngine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,15 +23,26 @@
 			remoteGlobalIDString = 93914D9724F6F45A00C6D65B;
 			remoteInfo = AlgoEngine;
 		};
+		93914DC324F7272500C6D65B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93914D8F24F6F45A00C6D65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93914D9724F6F45A00C6D65B;
+			remoteInfo = AlgoEngine;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93426D252546E4AC008DC310 /* Multiplesof3and5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplesof3and5.swift; sourceTree = "<group>"; };
 		93914D9824F6F45A00C6D65B /* AlgoEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgoEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93914D9C24F6F45A00C6D65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93914DA324F6F50100C6D65B /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		93914DA924F6F51F00C6D65B /* FizzBuzzTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93914DAB24F6F51F00C6D65B /* FizzBuzzTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTest.swift; sourceTree = "<group>"; };
 		93914DAD24F6F51F00C6D65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93914DBD24F7272500C6D65B /* Multiplesof3and5Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Multiplesof3and5Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93914DBF24F7272500C6D65B /* Multiplesof3and5Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplesof3and5Test.swift; sourceTree = "<group>"; };
+		93914DC124F7272500C6D65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		93914DBA24F7272500C6D65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93914DC224F7272500C6D65B /* AlgoEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +77,7 @@
 			children = (
 				93914D9A24F6F45A00C6D65B /* AlgoEngine */,
 				93914DAA24F6F51F00C6D65B /* FizzBuzzTest */,
+				93914DBE24F7272500C6D65B /* Multiplesof3and5Test */,
 				93914D9924F6F45A00C6D65B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +87,7 @@
 			children = (
 				93914D9824F6F45A00C6D65B /* AlgoEngine.framework */,
 				93914DA924F6F51F00C6D65B /* FizzBuzzTest.xctest */,
+				93914DBD24F7272500C6D65B /* Multiplesof3and5Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +108,16 @@
 				93914DAD24F6F51F00C6D65B /* Info.plist */,
 			);
 			path = FizzBuzzTest;
+			sourceTree = "<group>";
+		};
+		93914DBE24F7272500C6D65B /* Multiplesof3and5Test */ = {
+			isa = PBXGroup;
+			children = (
+				93914DBF24F7272500C6D65B /* Multiplesof3and5Test.swift */,
+				93426D252546E4AC008DC310 /* Multiplesof3and5.swift */,
+				93914DC124F7272500C6D65B /* Info.plist */,
+			);
+			path = Multiplesof3and5Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +169,24 @@
 			productReference = 93914DA924F6F51F00C6D65B /* FizzBuzzTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		93914DBC24F7272500C6D65B /* Multiplesof3and5Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93914DC524F7272500C6D65B /* Build configuration list for PBXNativeTarget "Multiplesof3and5Test" */;
+			buildPhases = (
+				93914DB924F7272500C6D65B /* Sources */,
+				93914DBA24F7272500C6D65B /* Frameworks */,
+				93914DBB24F7272500C6D65B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93914DC424F7272500C6D65B /* PBXTargetDependency */,
+			);
+			name = Multiplesof3and5Test;
+			productName = Multiplesof3and5Test;
+			productReference = 93914DBD24F7272500C6D65B /* Multiplesof3and5Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +202,9 @@
 						LastSwiftMigration = 1160;
 					};
 					93914DA824F6F51F00C6D65B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					93914DBC24F7272500C6D65B = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
@@ -169,6 +224,7 @@
 			targets = (
 				93914D9724F6F45A00C6D65B /* AlgoEngine */,
 				93914DA824F6F51F00C6D65B /* FizzBuzzTest */,
+				93914DBC24F7272500C6D65B /* Multiplesof3and5Test */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +238,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		93914DA724F6F51F00C6D65B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93914DBB24F7272500C6D65B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,6 +270,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		93914DB924F7272500C6D65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93426D262546E4AC008DC310 /* Multiplesof3and5.swift in Sources */,
+				93914DC024F7272500C6D65B /* Multiplesof3and5Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +286,11 @@
 			isa = PBXTargetDependency;
 			target = 93914D9724F6F45A00C6D65B /* AlgoEngine */;
 			targetProxy = 93914DAF24F6F51F00C6D65B /* PBXContainerItemProxy */;
+		};
+		93914DC424F7272500C6D65B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93914D9724F6F45A00C6D65B /* AlgoEngine */;
+			targetProxy = 93914DC324F7272500C6D65B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,6 +497,40 @@
 			};
 			name = Release;
 		};
+		93914DC624F7272500C6D65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Multiplesof3and5Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Murphy.Multiplesof3and5Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93914DC724F7272500C6D65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Multiplesof3and5Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Murphy.Multiplesof3and5Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,6 +557,15 @@
 			buildConfigurations = (
 				93914DB224F6F51F00C6D65B /* Debug */,
 				93914DB324F6F51F00C6D65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93914DC524F7272500C6D65B /* Build configuration list for PBXNativeTarget "Multiplesof3and5Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93914DC624F7272500C6D65B /* Debug */,
+				93914DC724F7272500C6D65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
